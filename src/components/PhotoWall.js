@@ -6,11 +6,6 @@ var PhotoWall = React.createClass({
       };
     },
     componentDidMount:function(){
-
-      // this.state.model.on("change", function() {
-      //   this.forceUpdate();
-      // }.bind(this));
-
       $(window).scroll(function(){
         var topHeight = $("body").height() - window.innerHeight;
         if(topHeight - $(window).scrollTop() < 1000){
