@@ -4,5 +4,4 @@ $(function(){
     <PhotoWall photoData={photos.data} />,
     document.getElementById('main_region')
   );
-  // console.log(photos.data);
 });
